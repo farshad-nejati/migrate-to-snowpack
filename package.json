@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "snowpack dev --polyfill-node",
-    "build": "snowpack build"
+    "build": "snowpack build  --polyfill-node"
   },
   "eslintConfig": {
     "extends": [
