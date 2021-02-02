@@ -19,6 +19,9 @@ module.exports = {
     // {"match": "routes", "src": ".*", "dest": "/index.html"},
   ],
   optimize: {
+    bundle: true,
+    minify: true,
+    target: 'es2020',
     /* Example: Bundle your final build: */
     // "bundle": true,
   },
