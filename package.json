@@ -12,7 +12,7 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "snowpack dev --polyfill-node",
+    "start": "snowpack dev --polyfill-node   --config snowpack.config.js",
     "build": "snowpack build  --polyfill-node"
   },
   "eslintConfig": {
@@ -34,6 +34,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-syntax-class-properties": "^7.12.1",
     "@snowpack/app-scripts-react": "^2.0.0",
     "@snowpack/plugin-babel": "^2.1.6",
     "rollup-plugin-node-polyfills": "^0.2.1",
